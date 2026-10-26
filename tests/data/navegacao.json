@@ -1,0 +1,9 @@
+{
+  "telas": [
+    { "aba": "Home", "tela": "Home-screen", "textos": ["WEBDRIVER", "Demo app for the appium-boilerplate"] },
+    { "aba": "Login", "tela": "Login-screen", "textos": ["Login / Sign up Form"] },
+    { "aba": "Forms", "tela": "Forms-screen", "textos": ["Form components"] },
+    { "aba": "Swipe", "tela": "Swipe-screen", "textos": ["Swipe horizontal"] },
+    { "aba": "Drag", "tela": "Drag-drop-screen", "textos": ["Drag and Drop"] }
+  ]
+}

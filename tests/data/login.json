@@ -1,0 +1,20 @@
+{
+  "usuarioValido": { "email": "qa.mobile@teste.com", "senha": "Senha@123" },
+  "mensagens": {
+    "emailInvalido": "Please enter a valid email address",
+    "senhaCurta": "Please enter at least 8 characters",
+    "senhasDiferentes": "Please enter the same password"
+  },
+  "alertaLogin": { "titulo": "Success", "mensagem": "You are logged in!" },
+  "alertaCadastro": { "titulo": "Signed Up!", "mensagem": "You successfully signed up!" },
+  "loginsInvalidos": [
+    { "descricao": "e-mail sem @", "email": "qa.mobile.teste.com", "senha": "Senha@123", "erros": ["emailInvalido"] },
+    { "descricao": "senha com menos de 8 caracteres", "email": "qa.mobile@teste.com", "senha": "1234567", "erros": ["senhaCurta"] },
+    { "descricao": "campos vazios", "email": "", "senha": "", "erros": ["emailInvalido", "senhaCurta"] }
+  ],
+  "cadastrosInvalidos": [
+    { "descricao": "confirmação diferente da senha", "email": "novo@teste.com", "senha": "Senha@123", "confirmacao": "Senha@321", "erros": ["senhasDiferentes"] },
+    { "descricao": "e-mail inválido", "email": "novo@teste", "senha": "Senha@123", "confirmacao": "Senha@123", "erros": ["emailInvalido"] },
+    { "descricao": "todos os campos vazios", "email": "", "senha": "", "confirmacao": "", "erros": ["emailInvalido", "senhaCurta", "senhasDiferentes"] }
+  ]
+}

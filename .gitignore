@@ -1,0 +1,19 @@
+
+# Dependências
+node_modules/
+
+# App de exemplo (baixado automaticamente, ~120 MB)
+/apps/*.apk
+/apps/*.parcial
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+
+# Allure
+/allure-results/
+/allure-report/
+
+# Logs
+appium.log

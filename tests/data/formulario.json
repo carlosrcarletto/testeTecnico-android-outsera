@@ -1,0 +1,12 @@
+{
+  "texto": "Teste automatizado com Appium",
+  "textoLongo": "ABCDEFGHIJ0123456789abcdefghij-passou-do-limite",
+  "limiteCaracteres": 30,
+  "opcoes": ["webdriver.io is awesome", "Appium is awesome", "This app is awesome"],
+  "opcaoEscolhida": "Appium is awesome",
+  "chave": {
+    "desligada": { "ligada": false, "texto": "Click to turn the switch ON" },
+    "ligada": { "ligada": true, "texto": "Click to turn the switch OFF" }
+  },
+  "alertaEnvio": { "titulo": "This button is", "mensagem": "This button is active" }
+}
